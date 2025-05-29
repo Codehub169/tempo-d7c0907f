@@ -1,0 +1,16 @@
+<svg viewBox="0 0 220 60" xmlns="http://www.w3.org/2000/svg" aria-labelledby="logoTitle">
+  <title id="logoTitle">hueneu Logo</title>
+  <style>
+    .hueneu-text {
+      font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+      font-size: 40px;
+      fill: #374151; /* Corresponds to Tailwind gray-700 */
+      letter-spacing: 0.025em; /* Slight letter spacing for elegance */
+      font-weight: 500; /* Medium weight */
+    }
+  </style>
+  <text x="10" y="45" class="hueneu-text">hueneu</text>
+  <!-- A subtle dot representing the 'hue' burst, can be colored via CSS/JS if needed -->
+  <circle cx="205" cy="42" r="5" fill="#FFBF00" /> 
+  <!-- The fill for the circle is the accent color, FFBF00 (Amber) -->
+</svg>
